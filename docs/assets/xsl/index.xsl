@@ -37,33 +37,22 @@
                             <!-- Make one colummn for the chosen picture below -->
                             <div class="col-sm-6">
                                 <article id="collection">
-                                    <img class="img-full">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:graphic[2]/@url"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:label"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:figDesc"/>
-                                        </xsl:attribute>
-                                    </img>
-                                </article>
+                                        <img class="img-full">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:graphic[2]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                        </img>
+                                    </article>
                             </div>
                             
-                            <p class="text-special"><strong>Om projektet:</strong></p>
-                            <p>Det digitaliseringsprojekt som presenteras här utgörs av en utgrävningsrapport från Lunds historiska museums magasin. 
-                                Rapporten berör en grävning av en grav på Nosaby kyrkogård, i Villands härad, Kristianstads län, den 22 okt. 1921. 
-                                Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4-sidor, inklusive försättsblad, samt bilagor i form av en karta
-                                och fyra fotografier. 
-                                Digitaliseringen av detta kulturarv gjordes inom kursen Digitalisering för bevarande och tillgänglighet 
-                                vid Högskolan i Borås vårterminen 2025.</p>
-                            <!--only in this document no correlation in TEI-->
-                            <strong>Besök gärna projektets GitHub:</strong>
-                            <p class="text-special"><a target="_blank" href="https://github.com/Dalekqueen/Utgr-vningsrapport-fr-n-1920-talet.">
-                                Se allt material här </a>
-                                (materialet är inte skyddat av upphovsrätt utan är fritt för alla att använda) </p>
-                        </div>
+                            
+                           
                         
                         <!-- bottom row for the remaining information -->
                         <div class="row">
@@ -89,14 +78,14 @@
                                         <strong>Datum:</strong><br/>
                                         <xsl:apply-templates select="//tei:publicationStmt/tei:date"/>
                                     </p>
-                                    
+                                  
                                 </article>
                                 
                                 
                             </div>
                         </div>
                     </div>
-                    0              </main>
+  0              </main>
                 <footer>
                     <div class="row" id="footer">
                         <div class="col-sm copyright">
@@ -117,5 +106,5 @@
         
     </xsl:template>
     
-    
+   
 </xsl:stylesheet>
