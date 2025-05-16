@@ -61,9 +61,9 @@
                                     </p>
                                     <!--only in this document no correlation in TEI-->
                                     <p class="text-special"><strong>Besök gärna projektets GitHub:</strong></p>
-                                    <p class="text-special"><a target="_blank" href="https://github.com/Dalekqueen/Utgr-vningsrapport-fr-n-1920-talet.">
+                                    <p class="text-special"><a target="_blank" href="https://github.com/Dalekqueen/Utgr-vningsrapport-fr-n-1920-talet">
                                         Se allt material här </a>
-                                        (materialet är inte skyddat av upphovsrätt utan är fritt för alla att använda) </p>
+                                     </p>
                                 </article>
                             </div>
                         </div>
