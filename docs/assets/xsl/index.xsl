@@ -67,6 +67,12 @@
                                     <p class="text-special"><a target="_blank" href="https://github.com/Dalekqueen/Utgr-vningsrapport-fr-n-1920-talet">
                                         Se allt material här </a>
                                      </p>
+                                    
+                 
+                                    <p class="text-special"><strong>Eller läs mer om Historiska museet vid Lunds universitet här:</strong></p>
+                                    <p class="text-special"><a target="_blank" href="https://www.historiskamuseet.lu.se/">
+                                        Se allt material här </a>
+                                    </p>
                                 </article>
                             </div>
                         </div>
