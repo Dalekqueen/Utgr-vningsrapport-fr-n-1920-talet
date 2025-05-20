@@ -43,11 +43,11 @@
             <msDesc>
                <msIdentifier> 
                   <settlement>Lund</settlement>
-                  <institution>Lunds historiska museum </institution>
+                  <institution>Historiska museet vid Lunds universitet </institution>
                </msIdentifier>
                <msContents>
                   <summary>
-                     En utgrävningsrapport från Lunds historiska museums magasin. 
+                     En utgrävningsrapport från Historiska museet vid Lunds universitets magasin. 
                      Rapporten berör en grävning av en grav på Nosaby kyrkogård, i Villands härad, Kristianstads län, den 22 okt. 1921. 
                      Vid grävning av en grav fann en kyrkväktare fyra större lerkärl.
                      Vid fyndtillfället verkställdes ingen undersökning. 
@@ -103,7 +103,7 @@
       
       <encodingDesc>
          <projectDesc>
-            <p>Det digitaliseringsprojekt som presenteras här utgörs av en utgrävningsrapport från Lunds historiska museums magasin. 
+            <p>Det digitaliseringsprojekt som presenteras här utgörs av en utgrävningsrapport från <ref target="https://www.historiskamuseet.lu.se/">Historiska museet vid Lunds universitets</ref> magasin. 
                Rapporten berör en grävning av en grav på Nosaby kyrkogård, i Villands härad, Kristianstads län, den 22 okt. 1921. 
                Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4-sidor, inklusive försättsblad, samt bilagor i form av en karta
                och fyra fotografier. 
@@ -129,7 +129,6 @@
    </teiHeader>
          
    <facsimile>
-      <!-- Här lägger vi länkar till våra bilder-->
      
          <surface xml:id="olof">
             <figure>
