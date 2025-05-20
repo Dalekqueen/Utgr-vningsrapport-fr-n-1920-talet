@@ -103,7 +103,7 @@
       
       <encodingDesc>
          <projectDesc>
-            <p>Det digitaliseringsprojekt som presenteras här utgörs av en utgrävningsrapport från <ref target="https://www.historiskamuseet.lu.se/">Historiska museet vid Lunds universitets</ref> magasin. 
+            <p>Det digitaliseringsprojekt som presenteras här utgörs av en utgrävningsrapport från Historiska museet vid Lunds universitets magasin. 
                Rapporten berör en grävning av en grav på Nosaby kyrkogård, i Villands härad, Kristianstads län, den 22 okt. 1921. 
                Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4-sidor, inklusive försättsblad, samt bilagor i form av en karta
                och fyra fotografier. 
@@ -255,7 +255,8 @@
             <p>
                Stig Olof (Olle) Erland Källström föddes i Malmö den 27 april 1900. 
                Han studerade vid Lunds universitet och mellan år 1922-1928 var han 
-               anställd som amanuens på Lunds universitets historiska museum (Gierow, 1940). 
+               anställd som amanuens på 
+               <ref target="https://www.historiskamuseet.lu.se/">Historiska museet vid Lunds universitet</ref>(Gierow, 1940).
                Det är vid denna tid som han utför undersökningen i Nosaby (egen anm.).
                Källström blev 1928 anställd som amanuens vid Vitterhetsakademin.  
                Han började arbeta på fornminnesavdelningen och sedan på Statens 
