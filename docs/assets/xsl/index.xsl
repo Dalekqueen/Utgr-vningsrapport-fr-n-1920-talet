@@ -36,7 +36,7 @@
                         <div class="row">
                             <!-- Make one colummn for the chosen picture below -->
                             <div class="col-sm-6">
-                                <article id="collection">
+                                <article id="collection2">
                                     <img class="thumbnail">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:graphic[2]/@url"/>
