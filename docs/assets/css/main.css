@@ -12,6 +12,42 @@ h1, h2, h3, nav, footer {
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+nav {
+    margin-bottom: 1vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1vw;
+}
+
+h2 {
+    padding: 1vw;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 1vw;
+    
+}
+
+body {
+	padding: 1vw;
+	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+	line-height: 1.25;
+	font-size: 1vw;
+  width: 100%;
+  
+   font-family: Arial, sans-serif;
+            
+	}
+
+h1, h2, h3, nav, footer {
+    text-align: center;
+    color : #000000
+}
+
+>>>>>>> 604d23fde6edeea6725e5c3b0cd21f34c85f2d89
 nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;
@@ -35,6 +71,7 @@ h3 {
     text-align: center;    
 }
 
+<<<<<<< HEAD
 footer {
     border-top: 1px solid black;
     padding-top: 1vw;
@@ -54,6 +91,8 @@ footer {
 		width: 1vw;
 		margin:.15vw;
 	}
+=======
+>>>>>>> 604d23fde6edeea6725e5c3b0cd21f34c85f2d89
 
 .row {
     padding: 1vw;
@@ -74,4 +113,8 @@ footer {
     margin: 5px;
     border: 1px solid black;
     width: 500px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 604d23fde6edeea6725e5c3b0cd21f34c85f2d89
