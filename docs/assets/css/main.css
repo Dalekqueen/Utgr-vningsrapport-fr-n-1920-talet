@@ -12,8 +12,8 @@ h1, h2, h3, nav, footer {
     text-align: center;
 }
 
-<<<<<<< HEAD
-=======
+
+
 nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;
@@ -47,7 +47,6 @@ h1, h2, h3, nav, footer {
     color : #000000
 }
 
->>>>>>> 604d23fde6edeea6725e5c3b0cd21f34c85f2d89
 nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;
@@ -65,13 +64,41 @@ h3 {
     
 }
 
+            
+        .ref {
+        padding-top : 1em
+        }
+        .authors {
+        font-weight : bold
+        }
+        .citation {
+        font-style: italic;
+        margin: 2em 0 0 2em;
+        }
+        .blockquote {
+            margin: 2em 0 0 2em;
+            padding-left: 1em;
+        }
+                .term {
+            font-size: .9em;
+            color: #430;
+            font-family: Arial, sans-serif;
+            border: 1px solid;
+            border-radius: 6px;
+            padding: .2ex .35em;
+            background-color: #ffffff;
+        }
+        .blockquote p {
+            max-width: calc(53rem - 3em);
+        }
+
+
 #details {
     padding: 2vw;
     margin: 1vw;
     text-align: center;    
 }
 
-<<<<<<< HEAD
 footer {
     border-top: 1px solid black;
     padding-top: 1vw;
@@ -88,11 +115,9 @@ footer {
 }
 
 .copyright_logo {
-		width: 1vw;
+		width: 5vw;
 		margin:.15vw;
 	}
-=======
->>>>>>> 604d23fde6edeea6725e5c3b0cd21f34c85f2d89
 
 .row {
     padding: 1vw;
@@ -113,8 +138,5 @@ footer {
     margin: 5px;
     border: 1px solid black;
     width: 500px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 604d23fde6edeea6725e5c3b0cd21f34c85f2d89
+
