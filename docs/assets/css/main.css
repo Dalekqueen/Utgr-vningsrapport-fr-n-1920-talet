@@ -128,6 +128,10 @@ footer {
     display: flex;
 }
 
+#collection2 {
+    display: flex;
+}
+
 .thumbnail {
     margin: 5px;
     border: 1px solid black;
