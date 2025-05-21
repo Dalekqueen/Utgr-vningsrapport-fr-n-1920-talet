@@ -35,52 +35,21 @@
                     <div class="container">
                         <div class="row">
                             <!-- Make one colummn for the chosen picture below -->
-                            /div>
-                            <!-- first column: load the image based on the IIIF link in the graphic above -->
-                            <div class="col-sm">
+                            <div class="col-sm-6">
                                 <article id="collection">
-                                    <xsl:for-each select="//tei:surface[
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/IMG_1248_thumb.png') and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad_thumb.jpg')and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_1_thumb.jpg') and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_2_thumb.jpg') and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_3_thumb.jpg')and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_4_thumb.jpg') and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_5_thumb.jpg') and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_2_Lerkarl_thumb.jpg')and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Skarvor_thumb.jpg') and
-                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Utgravningsplats_thumb.jpg')
-                                        ]">
-                                        
-                                        <img class="thumbnail">
+                                    <img class="thumbnail">
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:graphic[2]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
-                                                <xsl:value-of select="tei:figure/tei:label"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:label"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="alt">
-                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
-                                        </img>    
-                                    </xsl:for-each>
-                                </article>
+                                        </img>
+                                    </article>
                             </div>
-                        </div>
-                        
-                        <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                        <div class="row">
-                            <div class="col-sm">
-                                <article id="beskrivning">
-                                    <p>
-                                        <strong>Beskrivning:</strong> &#160;
-                                        <xsl:apply-templates select="//tei:mscontents"/>
-                                        <xsl:value-of select="//tei:summary"/>
-                                    </p>
-                                </article>
-                            </div>
-                        </div>
-                        
                             
                             
                             <!-- column for the desciption element -->
