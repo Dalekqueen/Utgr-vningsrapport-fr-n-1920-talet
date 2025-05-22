@@ -132,7 +132,8 @@ footer {
 .thumbnail {
     margin: 5px;
     border: 1px solid black;
-    width: 300px;
+    width: 90%;
+    max-width: 600px
 }
 
 .img-full {
