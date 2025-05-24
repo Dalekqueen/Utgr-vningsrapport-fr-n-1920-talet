@@ -202,7 +202,7 @@
       </surface>
       <surface xml:id="kartskiss">
          <figure>
-            <label>Kartskiss</label>
+            <label>Kartskiss över Nosaby kyrkas läge</label>
             <figDesc> 
               En kartskiss över Nosaby kyrkas läge i förhållande till omgivande sjöar
            </figDesc>
@@ -212,7 +212,7 @@
             </surface>
       <surface xml:id="lerkarl">
          <figure>
-            <label>Lerkärl</label>
+            <label>2 Lerkärl</label>
             <figDesc> 
                Ett fotografi av två lerkärl
             </figDesc>
@@ -222,7 +222,7 @@
       </surface>
       <surface xml:id="skarvor">
          <figure>
-            <label>Skärvor</label>
+            <label>Skärvor från Lerkärlen</label>
             <figDesc> 
                Ett  fotografi av skärvor från lerkärlen
             </figDesc>
@@ -438,7 +438,7 @@
          
          <div type="page_appendix" facs="#skarvor">
             <p>
-               <emph>Skärvor från de upphittade lerkärlen.</emph>
+               <emph>Fotografi på skärvor från de upphittade lerkärlen.</emph>
             </p>
          </div>
          
