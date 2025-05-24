@@ -142,9 +142,9 @@
       
       <surface xml:id="forsattsblad">
          <figure>
-            <label>Försättsbladet på rapporten</label>
+            <label>Rapportens försättsblad</label>
             <figDesc>
-               Rapportens försättsblad.
+               Försättsbladet på rapporten.
             </figDesc>
             <graphic xml:id="forsattsblad_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad_full.jpg"/>
             <graphic xml:id="forsatttsblad_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad_thumb.jpg"/>
