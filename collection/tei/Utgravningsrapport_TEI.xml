@@ -143,11 +143,11 @@
          <figure>
             <label>Nosaby Kyrka med omgivning</label>
             <figDesc>
-               Fotografi på Nosaby Kyrka med omgivning. 
+               Fotografi på Nosaby Kyrka med omgivning maj 2025. 
                Fotograf Emma Walldén.
             </figDesc>
-            <graphic xml:id="kyrka_orginal" url="assets/img/documents/Nosaby_Kyrka.jpg"/>
-            <graphic xml:id="kyrka_kopia" url="assets/img/documents/Nosaby_Kyrka_kopia.jpg"/>
+            <graphic xml:id="kyrka_full" url="assets/img/documents/Nosaby_Kyrka.jpg"/>
+            <graphic xml:id="kyrka_thumb" url="assets/img/documents/Nosaby_Kyrka_kopia.jpg"/>
          </figure>
       </surface>
       
@@ -308,7 +308,7 @@
                <lb/> <ref target="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/villands-h%C3%A4rad?isSearchResult=true">NE Villands Härad</ref>
             </p>    
             <p>
-               <emph>Fotografi på Nosaby kyrka med omgivning.
+               <emph>Fotografi på Nosaby kyrka med omgivning maj 2025.
                   <lb/>Fotograf Emma Walldén.</emph>
             </p>
          </div>
