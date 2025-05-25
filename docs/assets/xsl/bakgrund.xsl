@@ -81,7 +81,7 @@
                                         </img>
                                     </article>
                                 </div>
-                                <!-- fill the second column with our transcription -->
+                                
                                 <div class='col-sm'>
                                     <article class="transcription">
                                         <xsl:apply-templates/>                                      

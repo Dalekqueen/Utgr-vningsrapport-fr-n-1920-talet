@@ -139,6 +139,17 @@
                <graphic xml:id="olof_thumb" url="assets/img/documents/IMG_1248_thumb.png"/>
             </figure>
          </surface>
+      <surface xml:id="nosaby">
+         <figure>
+            <label>Nosaby Kyrka med omgivning</label>
+            <figDesc>
+               Fotografi på Nosaby Kyrka med omgivning. 
+               Fotograf Emma Walldén.
+            </figDesc>
+            <graphic xml:id="kyrka_full" url="assets/img/documents/Nosaby_Kyrka.jpg"/>
+            <graphic xml:id="kyrka_thumb" url="assets/img/documents/Nosaby_Kyrka_kopia.jpg"/>
+         </figure>
+      </surface>
       
       <surface xml:id="forsattsblad">
          <figure>
@@ -281,7 +292,7 @@
          </div>
          
          
-         <div type="page_background" facs="#utgravningsplats"> 
+         <div type="page_background" facs="#nosaby"> 
             <head>Villands härad</head>
             <p>
                Tidigare fanns härader i Götaland och Svealand, vilket innebar en uppdelning av olika 
@@ -297,7 +308,8 @@
                <lb/> <ref target="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/villands-h%C3%A4rad?isSearchResult=true">NE Villands Härad</ref>
             </p>    
             <p>
-               <emph>Fotografi från utgrävningsplatsen. </emph>
+               <emph>Fotografi på Nosaby kyrka med omgivning.
+                  <lb/>Fotograf Emma Walldén.</emph>
             </p>
          </div>
          
