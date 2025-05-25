@@ -141,9 +141,9 @@
          </surface>
       <surface xml:id="nosaby">
          <figure>
-            <label>Nosaby Kyrka med omgivning</label>
+            <label>Nosaby Kyrka med omgivning maj 2025</label>
             <figDesc>
-               Fotografi på Nosaby Kyrka med omgivning maj 2025. 
+               Fotografi på Nosaby Kyrka med omgivning. 
                Fotograf Emma Walldén.
             </figDesc>
             <graphic xml:id="kyrka_full" url="assets/img/documents/Nosaby_Kyrka.jpg"/>
@@ -309,7 +309,7 @@
             </p>    
             <p>
                <emph>Fotografi på Nosaby kyrka med omgivning maj 2025.
-                  <lb/>Fotograf Emma Walldén.</emph>
+                  <lb/>Fotograf Emma Walldén</emph>
             </p>
          </div>
          
