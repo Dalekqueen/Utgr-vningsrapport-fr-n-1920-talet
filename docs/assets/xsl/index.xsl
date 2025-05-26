@@ -37,9 +37,9 @@
                             <!-- Make one colummn for the chosen picture below -->
                             <div class="col-sm-6">
                                 <article id="collection2">
-                                    <img class="thumbnail">
+                                    <img class="img-full">
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:graphic[2]/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
                                                 <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:label"/>
@@ -115,7 +115,7 @@
                         <div class="col-sm copyright">
                             <div>
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="assets/img/logos/ccby.svg" class="copyright_logo" alt="Creative Commons License Attribution 4.0 International"/>
+                                    <img src="assets/img/logo/ccby.svg" class="copyright_logo" alt="Creative Commons License"/> <img src="assets/img/logos/ccby.svg" class="copyright_logo" alt="Creative Commons License Attribution 4.0 International"/>
                                 </a>
                             </div>
                         </div>
