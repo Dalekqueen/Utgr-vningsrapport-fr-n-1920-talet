@@ -37,9 +37,9 @@
                             <!-- Make one colummn for the chosen picture below -->
                             <div class="col-sm-6">
                                 <article id="collection2">
-                                    <img class="img-full">
+                                    <img class="thumbnail">
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:graphic[1]/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:graphic[2]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
                                                 <xsl:value-of select="//tei:surface[@xml:id='kartskiss']//tei:figure/tei:label"/>
