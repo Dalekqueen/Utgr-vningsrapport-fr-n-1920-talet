@@ -55,7 +55,7 @@
                                 <div class="col-sm">
                                     <article>
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img class="img-thumb">
+                                        <img class="thumbnail">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
                                                     @title for a mouse-over effect
